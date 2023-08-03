@@ -4,7 +4,7 @@ class TodoItem {
     // public id: number; //private, public, protected
     // public task: string;
     // public complete: boolean;    
-    constructor(id, task, complete) {
+    constructor(id, task, complete = false) {
         this.id = id;
         this.task = task;
         this.complete = complete;
